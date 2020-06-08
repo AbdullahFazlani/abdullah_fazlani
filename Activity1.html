@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			 /*background-image: linear-gradient(-90deg, red, black);*/
+
+		}
+		form{
+			margin: 10px;
+		}
+		fieldset{
+			width: 50%;
+			text-align: center;
+			margin: auto;
+		}
+		#colorprop{
+
+		}
+		.colr{
+
+		}
+
+	</style>
+	<script type="text/javascript">
+		document.write(5+2);
+	</script>
+</head>
+
+<body>
+	<form>
+		<fieldset>
+		<legend>Login Form</legend>
+		<input type="text" name="Name" placeholder="Full Name" /><br>
+		<input type="password" name="Password" placeholder="Password"><br><br>
+		<input type="date" name=""><br><br>
+		Male: <input type="radio" name="gender" /> Female: <input type="radio" name="gender" /><br>
+		<select>
+			<option>Android</option>
+			<option selected="">Windows</option>
+			<option>Linux</option>
+		</select>
+		<br>Hobbies: <br>
+		Cricket<input type="checkbox"/><br><br>
+		<input type="Submit"  value="Submit" onclick="alert('Okay');"/>
+		<input type="button"  value="Right"  onclick="redColor();"/>
+		<input type="button"  value="Left"  onclick="whiteColor();" />
+		<br><br><br>
+		<textarea placeholder="Comment">
+		</textarea>
+		</fieldset>
+	</form>
+</body>
+<script type="text/javascript">
+	
+	function redColor(){
+		 document.body.style.backgroundColor='red';
+	}
+	function whiteColor(){
+		 document.body.style.backgroundColor='white';
+	}
+</script>
+</html>
